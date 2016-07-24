@@ -1,0 +1,19 @@
+#include <com/sun/star/uno/XInterface.idl>
+
+module es { module atareao { module libreoffice { module Hidraulica {
+
+    interface XHidraulica
+    {
+      double reynolds( [in] double densidad, [in] double velocidad, [in] double diametro, [in] double viscosidaddinamica);
+      double reynoldsaguadulce( [in] double temperatura, [in] double velocidad, [in] double diametro);
+      double reynoldsaguademar( [in] double temperatura, [in] double velocidad, [in] double diametro);
+      double viscosidaddinamicaagua( [in] double temperatura);
+      double densidadagua( [in] double t, [in] double s, [in] double p);
+      double friccion( [in] double diametro, [in] double caudal, [in] double rugosidad, [in] double reynolds);
+      double friccionaguademar( [in] double diametro, [in] double caudal, [in] double rugosidad, [in] double temperatura);
+      double friccionaguadulce( [in] double diametro, [in] double caudal, [in] double rugosidad, [in] double temperatura);
+      double perdidacarga( [in] double friccion, [in] double longitud, [in] double caudal, [in] double diametro);
+      double velocidad([in] double caudal, [in] double diametro);
+    };
+
+}; }; }; };

@@ -1,0 +1,14 @@
+Una extensión para Calc que añade funciones para cálculos hidráulicos.
+
+REYNOLDS calcula el número de Reynolds.
+REYNOLDSAGUADULCE calcula el número de Reynolds para agua dulce.
+REYNOLDSAGUADEMAR calcula el número de Reynolds para agua de mar.
+VISCOSIDADDINAMICAAGUA calcula la viscosidad dinámica del agua.
+DENSIDADAGUA calcula la densidad del agua.
+FRICCION calcula la fricción del en una tubería.
+FRICCIONAGUADEMAR calcula la fricción del agua de mar en una tubería.
+FRICCIONAGUADULCE calcula la fricción del agua dulce en una tubería.
+PERDIDACARGA calcula la pérdida de carga en una tubería.
+VELOCIDAD calcula la velocidad de un fluido en una tubería.
+
+Copyright (c) 2016 Lorenzo Carbonell (https://www.atareao.es)
