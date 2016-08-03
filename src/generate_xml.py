@@ -25,7 +25,7 @@ addin_name = 'Hidraulica'
 addin_python_file = 'hidraulica.py'
 excel_addin_name = 'Hidraulica.xlam'
 addin_id = "%s.%s" % (addin_url, addin_name)
-addin_version = "0.0.1"
+addin_version = "0.0.2"
 addin_displayname = "Funciones hidraulicas"
 addin_publisher_link = "http://www.atareao.es"
 addin_publisher_name = "Lorenzo Carbonell"
@@ -112,9 +112,24 @@ addin_functions = [
             ('caudal', 'Caudal (m3/s)'),
             ('diametro', 'Diámetro (m)')]
         },
-
-
-    ]
+    {
+        'function_name': 'perdidacargacodo',
+        'function_description': 'Calcula la pérdida de carga en un codo',
+        'parameters': [
+            ('caudal', 'Caudal (m3/s)'),
+            ('diametro', 'Diámetro (m)'),
+            ('radio', 'Radio de giro del codo (m)'),
+            ('angulo', 'Angulo del codo (º)')]
+        },
+    {
+        'function_name': 'perdidacargacodobrusco',
+        'function_description': 'Calcula la pérdida de carga en un codo brusco',
+        'parameters': [
+            ('caudal', 'Caudal (m3/s)'),
+            ('diametro', 'Diámetro (m)'),
+            ('angulo', 'Angulo del codo (º)')]
+        },
+]
 
 # description.xml
 #

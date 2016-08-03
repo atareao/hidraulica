@@ -10,5 +10,6 @@ FRICCIONAGUADEMAR calcula la fricción del agua de mar en una tubería.
 FRICCIONAGUADULCE calcula la fricción del agua dulce en una tubería.
 PERDIDACARGA calcula la pérdida de carga en una tubería.
 VELOCIDAD calcula la velocidad de un fluido en una tubería.
-
+PERDIDACARGACODO Calcula la pérdida de carga en un codo
+PERDIDACARGACODOBRUSCO Calcula la pérdida de carga en un codo brusco
 Copyright (c) 2016 Lorenzo Carbonell (https://www.atareao.es)

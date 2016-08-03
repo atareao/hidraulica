@@ -14,6 +14,8 @@ module es { module atareao { module libreoffice { module Hidraulica {
       double friccionaguadulce( [in] double diametro, [in] double caudal, [in] double rugosidad, [in] double temperatura);
       double perdidacarga( [in] double friccion, [in] double longitud, [in] double caudal, [in] double diametro);
       double velocidad([in] double caudal, [in] double diametro);
+      double perdidacargacodo([in] double caudal, [in] double diametro, [in] double radio, [in] double angulo);
+      double perdidacargacodobrusco([in] double caudal, [in] double diametro, [in] double angulo);
     };
 
 }; }; }; };
